@@ -1,0 +1,17 @@
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\bin\Debug\net7.0-windows\MultiThread_notes.exe
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\bin\Debug\net7.0-windows\MultiThread_notes.deps.json
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\bin\Debug\net7.0-windows\MultiThread_notes.runtimeconfig.json
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\bin\Debug\net7.0-windows\MultiThread_notes.dll
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\bin\Debug\net7.0-windows\MultiThread_notes.pdb
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\obj\Debug\net7.0-windows\MultiThread_notes.csproj.AssemblyReference.cache
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\obj\Debug\net7.0-windows\MultiThread_notes.Form1.resources
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\obj\Debug\net7.0-windows\MultiThread_notes.csproj.GenerateResource.cache
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\obj\Debug\net7.0-windows\MultiThread_notes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\obj\Debug\net7.0-windows\MultiThread_notes.AssemblyInfoInputs.cache
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\obj\Debug\net7.0-windows\MultiThread_notes.AssemblyInfo.cs
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\obj\Debug\net7.0-windows\MultiThread_notes.csproj.CoreCompileInputs.cache
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\obj\Debug\net7.0-windows\MultiThread_notes.dll
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\obj\Debug\net7.0-windows\refint\MultiThread_notes.dll
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\obj\Debug\net7.0-windows\MultiThread_notes.pdb
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\obj\Debug\net7.0-windows\MultiThread_notes.genruntimeconfig.cache
+C:\Users\bande\Desktop\Renton Tech College stuff\Classes\2023 Spring\Computer Programming IV\Week 4\MultiThread_notes\MultiThread_notes\obj\Debug\net7.0-windows\ref\MultiThread_notes.dll
