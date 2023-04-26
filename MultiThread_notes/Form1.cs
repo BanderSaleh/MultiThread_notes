@@ -1,3 +1,5 @@
+using System;
+
 namespace MultiThread_notes
 {
     public partial class Form1 : Form
@@ -37,6 +39,14 @@ namespace MultiThread_notes
             DisplayToRTB("LongAsync Ended");
         }
 
+        public async void LoopAsync()
+        {
+            // [insert stopwatch method code here]
+            // includes a Delegates method type
+        }
+
+
+
 
 
 
@@ -68,6 +78,8 @@ namespace MultiThread_notes
 
         private void btnStopWatch_Click(object sender, EventArgs e)
         {
+
+            // Insert code to calculate how long (seconds) it takes to run a specified line of code
 
         }
 
