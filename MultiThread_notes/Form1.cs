@@ -4,22 +4,49 @@ namespace MultiThread_notes
     {
         public Form1()
         {
-            InitializeComponent();
-            DisplayToRTB("Hello World!");
-            
+            InitializeComponent(); // Form 1 starts running with this line
+            DisplayToRTB("Hello World!"); // Runs a Method I created below
+
         }
 
 
         // Methods
         public void DisplayToRTB(string message)
         {
-            richTextBox1.Text += message + "\n";
+            richTextBox1.Text += message + "\n"; // Add inputed message to a new line
+            // Test this method and see if our code locks up <-- Important thing to check for with writing MultiThread code
+
         }
 
-        //publicc void LongProcess()
+        public void LongProcess()
+        {
+
+        }
+        public void ShortProcess()
+        {
+
+        }
+
+        public async void LongAsync(int number)
+        {
+            DisplayToRTB($"LongAsync started : Thread {number}");
+
+            // Replace Thread.Sleep with async version
+            await Task.Delay(4000);
+
+            DisplayToRTB("LongAsync Ended");
+        }
+
+
+
 
 
         // Click-Events
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnRunSync_Click(object sender, EventArgs e)
         {
 
@@ -27,12 +54,25 @@ namespace MultiThread_notes
 
         private void btnRunAsync_Click(object sender, EventArgs e)
         {
-
+            LongAsync(1);
+            ShortProcess();
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        private void btnMultiThread_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                LongAsync(i);
+            }
+        }
+
+        private void btnStopWatch_Click(object sender, EventArgs e)
         {
 
         }
+
+        
+
+
     }
 }

@@ -31,6 +31,8 @@
             richTextBox1 = new RichTextBox();
             btnRunSync = new Button();
             btnRunAsync = new Button();
+            btnMultiThread = new Button();
+            btnStopWatch = new Button();
             SuspendLayout();
             // 
             // richTextBox1
@@ -44,7 +46,7 @@
             // 
             // btnRunSync
             // 
-            btnRunSync.Location = new Point(76, 63);
+            btnRunSync.Location = new Point(76, 81);
             btnRunSync.Name = "btnRunSync";
             btnRunSync.Size = new Size(137, 34);
             btnRunSync.TabIndex = 1;
@@ -54,7 +56,7 @@
             // 
             // btnRunAsync
             // 
-            btnRunAsync.Location = new Point(76, 157);
+            btnRunAsync.Location = new Point(76, 155);
             btnRunAsync.Name = "btnRunAsync";
             btnRunAsync.Size = new Size(137, 34);
             btnRunAsync.TabIndex = 2;
@@ -62,11 +64,33 @@
             btnRunAsync.UseVisualStyleBackColor = true;
             btnRunAsync.Click += btnRunAsync_Click;
             // 
+            // btnMultiThread
+            // 
+            btnMultiThread.Location = new Point(76, 229);
+            btnMultiThread.Name = "btnMultiThread";
+            btnMultiThread.Size = new Size(137, 34);
+            btnMultiThread.TabIndex = 3;
+            btnMultiThread.Text = "Run ( Multiple )";
+            btnMultiThread.UseVisualStyleBackColor = true;
+            btnMultiThread.Click += btnMultiThread_Click;
+            // 
+            // btnStopWatch
+            // 
+            btnStopWatch.Location = new Point(76, 299);
+            btnStopWatch.Name = "btnStopWatch";
+            btnStopWatch.Size = new Size(137, 34);
+            btnStopWatch.TabIndex = 4;
+            btnStopWatch.Text = "Stopwatch Example";
+            btnStopWatch.UseVisualStyleBackColor = true;
+            btnStopWatch.Click += btnStopWatch_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnStopWatch);
+            Controls.Add(btnMultiThread);
             Controls.Add(btnRunAsync);
             Controls.Add(btnRunSync);
             Controls.Add(richTextBox1);
@@ -80,5 +104,7 @@
         private RichTextBox richTextBox1;
         private Button btnRunSync;
         private Button btnRunAsync;
+        private Button btnMultiThread;
+        private Button btnStopWatch;
     }
 }
